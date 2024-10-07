@@ -19,7 +19,7 @@ class Solution(object):
                 if mapping[char] != top_element:
                     return False
             else:
-                # If it's an opening parenthesis, push it onto the stack
+                
                 stack.append(char)
 
         # If the stack is empty, all opening parentheses were matched
