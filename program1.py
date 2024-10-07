@@ -28,7 +28,7 @@ class Solution(object):
 if __name__ == "__main__":
     solution = Solution()
     
-    # Take input from the user
+    
     user_input = input("Enter a string of parentheses: ")
 
     # Check if the input string is valid
