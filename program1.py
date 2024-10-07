@@ -22,7 +22,7 @@ class Solution(object):
                 
                 stack.append(char)
 
-        # If the stack is empty, all opening parentheses were matched
+        
         return not stack
 
 if __name__ == "__main__":
