@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        # Define a stack to keep track of opening parentheses
+
         stack = []
         # Define a mapping of closing to opening parentheses
         mapping = {')': '(', '}': '{', ']': '['}
