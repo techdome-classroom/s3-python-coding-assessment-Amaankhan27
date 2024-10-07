@@ -6,7 +6,7 @@ class Solution(object):
         """
 
         stack = []
-        # Define a mapping of closing to opening parentheses
+        
         mapping = {')': '(', '}': '{', ']': '['}
 
         # Iterate over each character in the string
