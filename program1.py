@@ -9,7 +9,7 @@ class Solution(object):
         
         mapping = {')': '(', '}': '{', ']': '['}
 
-        # Iterate over each character in the string
+        
         for char in s:
             # If the character is a closing parenthesis
             if char in mapping:
