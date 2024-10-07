@@ -15,7 +15,7 @@ class Solution(object):
             if char in mapping:
                 
                 top_element = stack.pop() if stack else '#'
-                # Check if the popped element matches the corresponding opening parenthesis
+                
                 if mapping[char] != top_element:
                     return False
             else:
