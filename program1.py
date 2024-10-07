@@ -13,7 +13,7 @@ class Solution(object):
         for char in s:
             
             if char in mapping:
-                # Pop the top element from the stack if it's not empty; otherwise, assign a dummy value
+                
                 top_element = stack.pop() if stack else '#'
                 # Check if the popped element matches the corresponding opening parenthesis
                 if mapping[char] != top_element:
