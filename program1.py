@@ -31,6 +31,6 @@ if __name__ == "__main__":
     
     user_input = input("Enter a string of parentheses: ")
 
-    # Check if the input string is valid
+    
     result = solution.isValid(user_input)
     print(result)  # Print True or False directly
